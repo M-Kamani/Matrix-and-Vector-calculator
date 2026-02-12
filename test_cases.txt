@@ -1,0 +1,847 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       MATRIX & VECTOR CALCULATOR
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 1
+Enter the number of rows: 3
+Enter the number of columns: 3
+Enter the matrix elements:
+mA[0][0]: 1
+mA[0][1]: 2
+mA[0][2]: 3
+mA[1][0]: 4
+mA[1][1]: 5
+mA[1][2]: 6
+mA[2][0]: 7
+mA[2][1]: 8
+mA[2][2]: 9
+
+The matrix you entered is:
+              1              2              3
+              4              5              6
+              7              8              9
+
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 1
+
+Enter scalar: 2
+
+The result will be:
+              2              4              6
+              8             10             12
+             14             16             18
+Returning to matrix menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 2
+
+The transpose will be:
+              1              4              7
+              2              5              8
+              3              6              9
+Returning to matrix menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 3
+The determinant of the matrix you entered will be:
+ 0
+Returning to matrix menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 5
+
+The main diagonal of the matrix will be:
+[1, 5, 9]
+
+Returning to menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 6
+
+The Anti-diagonal of the matrix will be:
+[3, 5, 7]
+
+Returning to menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 7
+
+Enter the rows of the second matrix: 3
+
+Enter the columns of the second matrix: 3
+
+Enter the matrix elements:
+mB[0][0]: 1
+mB[0][1]: 2
+mB[0][2]: 3
+mB[1][0]: 4
+mB[1][1]: 5
+mB[1][2]: 6
+mB[2][0]: 7
+mB[2][1]: 8
+mB[2][2]: 9
+
+The matrix you entered will be:
+              1              2              3
+              4              5              6
+              7              8              9
+
+
+~~~ Two-Matrix Operations ~~~
+1. Addition
+2. Subtraction
+3. Multiplication
+0. Back to matrix menu
+Choose: 1
+
+The addition will be:
+              2              4              6
+              8             10             12
+             14             16             18
+
+Returning to the menu...
+
+~~~ Two-Matrix Operations ~~~
+1. Addition
+2. Subtraction
+3. Multiplication
+0. Back to matrix menu
+Choose: 2
+
+The subtraction will be:
+              0              0              0
+              0              0              0
+              0              0              0
+
+Returning to the menu...
+~~~ Two-Matrix Operations ~~~
+1. Addition
+2. Subtraction
+3. Multiplication
+0. Back to matrix menu
+Choose: 0
+Returning to matrix menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 0
+
+Returning to main menu...
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 1
+Enter the number of rows: 2
+Enter the number of columns: 3
+Enter the matrix elements:
+mA[0][0]: 1
+mA[0][1]: 2
+mA[0][2]: 3
+mA[1][0]: 4
+mA[1][1]: 5
+mA[1][2]: 6
+
+The matrix you entered is:
+              1              2              3
+              4              5              6
+
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 3
+
+Matrix is not square!
+Operation canceled. Returning to matrix menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 4
+
+ERROR: Inverse is only for square matrix!
+Operation canceled. Returning to matrix menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 5
+
+Main diagonal is only for square matrix!
+Operation canceled. Returning to matrix menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 6
+
+Anti-diagonal is only for square matrix!
+Operation canceled. Returning to matrix menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 1
+
+Enter scalar: 5.5985
+
+The result will be:
+         5.5985         11.197        16.7955
+         22.394        27.9925         33.591
+Returning to matrix menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 7
+
+Enter the rows of the second matrix: 1
+
+Enter the columns of the second matrix: 5
+
+Enter the matrix elements:
+mB[0][0]: 1
+mB[0][1]: 2
+mB[0][2]: 3
+mB[0][3]: 4
+mB[0][4]: 5
+
+The matrix you entered will be:
+              1              2              3              4              5
+
+
+~~~ Two-Matrix Operations ~~~
+1. Addition
+2. Subtraction
+3. Multiplication
+0. Back to matrix menu
+Choose: 1
+
+ERROR: Addition is only for two matrices with the same size!
+Returning to the menu...
+
+~~~ Two-Matrix Operations ~~~
+1. Addition
+2. Subtraction
+3. Multiplication
+0. Back to matrix menu
+Choose: 2
+
+ERROR: Addition is only for two matrices with the same size!
+Returning to the menu...
+
+~~~ Two-Matrix Operations ~~~
+1. Addition
+2. Subtraction
+3. Multiplication
+0. Back to matrix menu
+Choose: 3
+ERROR: Can not multiply matrices! Columns of mA(3) != Rows of mB(1)
+Operation canceled. Returning to menu...
+
+~~~ Two-Matrix Operations ~~~
+1. Addition
+2. Subtraction
+3. Multiplication
+0. Back to matrix menu
+Choose: 0
+Returning to matrix menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 0
+
+Returning to main menu...
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 2
+
+Enter vector size (less than or equal to 1000): 3
+
+Enter the vector elements:
+Element 0: 1
+Element 1: 2
+Element 2: 3
+
+The vector you entered is:
+[1, 2, 3]
+
+ ~~~ One-Vector Operations ~~~
+1. Multiply by scalar
+2. Calculate magnitude
+3. Normalize vector
+4. Operations with 2 vectors
+0. Back to main menu
+Choose: 1
+
+Enter scalar: 5.68953
+
+The result will be: [5.68953, 11.3791, 17.0686]
+Returning to vector menu...
+
+ ~~~ One-Vector Operations ~~~
+1. Multiply by scalar
+2. Calculate magnitude
+3. Normalize vector
+4. Operations with 2 vectors
+0. Back to main menu
+Choose: 2
+
+Vector magnitude will be: 3.74166
+Returning to vector menu...
+
+ ~~~ One-Vector Operations ~~~
+1. Multiply by scalar
+2. Calculate magnitude
+3. Normalize vector
+4. Operations with 2 vectors
+0. Back to main menu
+Choose: 3
+
+The normalized vector will be: [0.267, 0.535, 0.802]
+Returning to vector menu...
+
+ ~~~ One-Vector Operations ~~~
+1. Multiply by scalar
+2. Calculate magnitude
+3. Normalize vector
+4. Operations with 2 vectors
+0. Back to main menu
+Choose: 4
+
+Enter vector size (less than or equal to 1000): 3
+
+Enter the vector elements:
+Element 0: 1
+Element 1: 2
+Element 2: 3
+
+The vector you entered is:
+[1.000, 2.000, 3.000]
+
+~~~ Two-Vector Operations ~~~
+1. Addition
+2. Subtraction
+3. Dot product
+4. Cross product (3D only)
+0. Back to vector menu
+Choose: 1
+
+The summation will be:
+[2.000, 4.000, 6.000]
+Returning to menu...
+
+~~~ Two-Vector Operations ~~~
+1. Addition
+2. Subtraction
+3. Dot product
+4. Cross product (3D only)
+0. Back to vector menu
+Choose: 2
+
+The difference will be:
+[0.000, 0.000, 0.000]
+Returning to menu...
+
+~~~ Two-Vector Operations ~~~
+1. Addition
+2. Subtraction
+3. Dot product
+4. Cross product (3D only)
+0. Back to vector menu
+Choose: 3
+
+The result of the dot product will be: 14.000
+Returning to menu...
+
+~~~ Two-Vector Operations ~~~
+1. Addition
+2. Subtraction
+3. Dot product
+4. Cross product (3D only)
+0. Back to vector menu
+Choose: 4
+
+The result of the cross product will be: 0.000, 0.000, 0.000
+Returning to menu...
+
+~~~ Two-Vector Operations ~~~
+1. Addition
+2. Subtraction
+3. Dot product
+4. Cross product (3D only)
+0. Back to vector menu
+Choose: 0
+Returning to vector menu...
+
+ ~~~ One-Vector Operations ~~~
+1. Multiply by scalar
+2. Calculate magnitude
+3. Normalize vector
+4. Operations with 2 vectors
+0. Back to main menu
+Choose: 4
+
+Enter vector size (less than or equal to 1000): 2
+
+Enter the vector elements:
+Element 0: 1
+Element 1: 2
+
+The vector you entered is:
+[1.000, 2.000]
+
+~~~ Two-Vector Operations ~~~
+1. Addition
+2. Subtraction
+3. Dot product
+0. Back to vector menu
+Choose: 1
+ERROR: Summation is only for vectors with the same size!
+Returning to menu...
+
+~~~ Two-Vector Operations ~~~
+1. Addition
+2. Subtraction
+3. Dot product
+0. Back to vector menu
+Choose: 2
+ERROR: Subtraction is only for vectors with the same size!
+Returning to menu...
+
+~~~ Two-Vector Operations ~~~
+1. Addition
+2. Subtraction
+3. Dot product
+0. Back to vector menu
+Choose: 3
+ERROR: Dot product is only for vectors with the same size!
+
+~~~ Two-Vector Operations ~~~
+1. Addition
+2. Subtraction
+3. Dot product
+0. Back to vector menu
+Choose: 0
+
+ ~~~ One-Vector Operations ~~~
+1. Multiply by scalar
+2. Calculate magnitude
+3. Normalize vector
+4. Operations with 2 vectors
+0. Back to main menu
+Choose: 0
+
+Returning to main menu...
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 6
+
+Invalid choice! Please try again.
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: .
+
+ERROR: Invalid input!
+Try again.
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: s
+
+ERROR: Invalid input!
+Try again.
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: س
+
+ERROR: Invalid input!
+Try again.
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 1
+Enter the number of rows: -5
+Enter the number of columns: 6
+
+ERROR: Dimensions must be positive! Returning to main menu...
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 1
+Enter the number of rows: g
+
+ERROR: Invalid input!
+Try again.
+Enter the number of rows: 69
+Enter the number of columns: k
+
+ERROR: Invalid input!
+Try again.
+Enter the number of columns: 0
+
+ERROR: Dimensions must be positive! Returning to main menu...
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 1
+Enter the number of rows: 2
+Enter the number of columns: 2
+Enter the matrix elements:
+mA[0][0]: 1
+mA[0][1]: 2
+mA[1][0]: 3
+mA[1][1]: 4
+
+The matrix you entered is:
+          1.000          2.000
+          3.000          4.000
+
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: k
+
+ERROR: Invalid input!
+Try again.
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: .
+
+ERROR: Invalid input!
+Try again.
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 0
+
+Returning to main menu...
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 2
+
+Enter vector size (less than or equal to 1000): h
+
+ERROR: Invalid input!
+Try again.
+
+Enter vector size (less than or equal to 1000): م
+
+ERROR: Invalid input!
+Try again.
+
+Enter vector size (less than or equal to 1000): 1
+
+Enter the vector elements:
+Element 0: 1
+
+The vector you entered is:
+[1.000]
+
+ ~~~ One-Vector Operations ~~~
+1. Multiply by scalar
+2. Calculate magnitude
+3. Normalize vector
+4. Operations with 2 vectors
+0. Back to main menu
+Choose: 0
+
+Returning to main menu...
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Thank you for using this calculator!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       MATRIX & VECTOR CALCULATOR
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 1
+Enter the number of rows: 3
+Enter the number of columns: 3
+Enter the matrix elements:
+mA[0][0]: 1
+mA[0][1]: 2
+mA[0][2]: 3
+mA[1][0]: 4
+mA[1][1]: 5
+mA[1][2]: 6
+mA[2][0]: 7
+mA[2][1]: 8
+mA[2][2]: 9
+
+The matrix you entered is:
+              1              2              3
+              4              5              6
+              7              8              9
+
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 4
+
+ERROR: Matrix is singular!
+Returning to menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 0
+
+Returning to main menu...
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Thank you for using this calculator!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Process returned 0 (0x0)   execution time : 79.853 s
+Press any key to continue.
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 1
+Enter the number of rows: 3
+Enter the number of columns: 3
+Enter the matrix elements:
+mA[0][0]: 1
+mA[0][1]: 2
+mA[0][2]: 3
+mA[1][0]: 4
+mA[1][1]: 5
+mA[1][2]: 0
+mA[2][0]: 7
+mA[2][1]: 8
+mA[2][2]: 6
+
+The matrix you entered is:
+              1              2              3
+              4              5              0
+              7              8              6
+
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 4
+
+The inverse of the matrix will be:
+         -1.111         -0.444          0.556
+          0.889          0.556         -0.444
+          0.111         -0.222          0.111
+
+Returning to menu...
+
+ ~~~ One-Matrix Operations ~~~
+1. Multiply by scalar
+2. Transpose
+3. Determinant
+4. Inverse
+5. Main diagonal of matrix
+6. Anti-diagonal of matrix
+7. Operations with 2 matrices
+0. Back to main menu
+Choose: 0
+
+Returning to main menu...
+
+   ~~~ Main Menu ~~~
+1. Matrix Operations
+2. Vector Operations
+0. Exit
+Choose: 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Thank you for using this calculator!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Process returned 0 (0x0)   execution time : 79.853 s
+Press any key to continue.
